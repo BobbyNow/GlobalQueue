@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Gq M2m Tables Endpoints" max_length="40" name="x_snc_gq_m2m_tables_endpoints" type="collection">
+        <element label="Endpoint" max_length="32" name="endpoint" reference="x_snc_gq_endpoint" type="reference"/>
+        <element label="Table" max_length="32" name="table" reference="x_snc_gq_table" type="reference"/>
+        <index name="index">
+            <element name="endpoint"/>
+        </index>
+        <index name="index2">
+            <element name="table"/>
+        </index>
+    </element>
+</database>

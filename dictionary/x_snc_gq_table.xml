@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="vTable Admin" max_length="40" name="x_snc_gq_table" type="collection">
+        <element dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="base_start=true,​base_table=task" label="Remote Table" max_length="80" name="remote_table" type="table_name"/>
+        <element attributes="base_start=true,base_table=x_snc_gq_st_task" label="vTable" max_length="80" name="table" type="table_name"/>
+    </element>
+</database>

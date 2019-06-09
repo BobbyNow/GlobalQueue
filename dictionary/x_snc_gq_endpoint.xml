@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Endpoint" max_length="40" name="x_snc_gq_endpoint" type="collection">
+        <element label="Credential" max_length="32" name="credential" reference="sys_auth_profile_basic" type="reference"/>
+        <element hint="Select to choose the current instance as an endpoint." label="Local" max_length="40" name="local" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <index name="index">
+            <element name="credential"/>
+        </index>
+    </element>
+</database>

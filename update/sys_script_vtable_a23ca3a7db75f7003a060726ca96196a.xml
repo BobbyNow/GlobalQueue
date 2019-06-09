@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>BACK - Global Queue Incident</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    var json = new global.JSON();
+
+    //Local scriptable table the results are being loaded on
+    var vTable = 'x_snc_gq_st_incident';
+
+    //Get active fields from table. Assumes the table is extended from x_snc_gq_st_task.
+    var fields = [];
+    var ele = '';
+    var gr = new GlideRecord('sys_dictionary');
+    gr.addQuery('name=x_snc_gq_st_task^ORname=' + vTable);
+    gr.addQuery('element!=collection');
+    gr.addActiveQuery();
+    gr.query();
+    while (gr.next()) {
+        ele = gr.element + '';
+        if (ele != 'instance' && ele != 'sys_domain_path' && ele != 'task_for' && ele != 'sys_class_name' && ele != 'endpoint' && fields.indexOf(ele) == -1) {
+            fields.push([ele, gr.internal_type.toLowerCase()]);
+        }
+    }
+
+    //Get the remoteTable name, endpoints, credentials for them, and encoded query strings
+    //Remote table we are connecting to
+    var remoteTable;
+    var endpoints = [];
+    var condition;
+    var ep = new GlideRecord('x_snc_gq_m2m_tables_endpoints');
+    ep.addQuery('table.table', vTable);
+    ep.query();
+    while (ep.next()) {
+        if (!remoteTable) {
+            remoteTable = ep.table.remote_table + '';
+        }
+
+        if (!condition) {
+            condition = parseCondition(ep.table.condition + '');
+//gs.info('ep.table.condition: ' + condition);
+        }
+
+        if (ep.endpoint.local) {
+            endpoints.push(['local', '', condition, ep.endpoint.name + '']);
+        } else {
+            endpoints.push([ep.endpoint.url + '', ep.endpoint.credential + '', condition, ep.endpoint.name + '']);
+        }
+    }
+
+    var url;
+    var epArr;
+    var auth;
+    var query;
+    var endpointName;
+    for (var i = 0; i < endpoints.length; i++) {
+        epArr = endpoints[i];
+        url = epArr[0] + '';
+        query = epArr[2] + '';
+        endpointName = epArr[3] + '';
+        if (url != 'local') {
+            auth = epArr[1] + '';
+            getRemote(url, remoteTable, query, auth, fields, endpointName);
+        } else {
+            getLocal(remoteTable, query, fields, endpointName);
+        }
+    }
+
+    function getRemote(url, table, query, auth, fields, endpointName) {
+        var endpoint = url + '/api/now/table/' + table;
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(endpoint);
+        request.setHttpMethod('GET');
+        request.setAuthenticationProfile("basic", auth);
+        request.setRequestHeader("Accept", "application/json");
+        request.setQueryParameter('sysparm_query', query);
+        request.setQueryParameter('sysparm_display_value', 'all');
+
+        var arr = [];
+        for (m in fields) {
+            arr.push(fields[m][0]);
+        }
+        request.setQueryParameter('sysparm_fields', arr.toString());
+
+        var response = request.execute();
+        var responseCode = response.getStatusCode();
+        var responseBody = response.getBody();
+        var json = new global.JSON();
+        var result = json.decode(responseBody).result;
+        //gs.info(responseBody);
+        var j;
+        var rec = {};
+        var row;
+        for (j in result) {
+            row = result[j];
+
+            var k;
+            var fieldArr;
+            var field;
+            var internalType;
+            for (k in fields) {
+                fieldArr = fields[k];
+                field = fieldArr[0] + '';
+                internalType = fieldArr[1] + '';
+                if (row[field]) {
+                    switch (internalType) {
+                        case "string":
+                            rec[field] = row[field].display_value;
+                            break;
+                        default:
+                            rec[field] = row[field].value;
+                    }
+                }
+            }
+
+            rec.endpoint = url + table + '.do?sys_id=' + rec.sys_id;
+            rec.instance = endpointName;
+            v_table.addRow(rec);
+        }
+    }
+
+    function getLocal(table, query, fields, endpointName) {
+        var rec = {};
+        var gr = new GlideRecord(table);
+        gr.addQuery(query);
+        gr.query();
+        while (gr.next()) {
+            var l;
+            var fieldArr;
+            var field;
+            var internalType;
+            for (l in fields) {
+                fieldArr = fields[l];
+                field = fieldArr[0] + '';
+                internalType = fieldArr[1] + '';
+                if (gr.isValidField(field)) {
+                    switch (internalType) {
+                        case "string":
+                            rec[field] = gr[field].getDisplayValue();
+                            break;
+                        default:
+                            rec[field] = gr[field];
+                    }
+                }
+            }
+
+            rec.endpoint = table + '.do?sys_id=' + gr.sys_id;
+            rec.instance = endpointName;
+            v_table.addRow(rec);
+        }
+    }
+
+    function parseCondition(tst) {
+        var evaluator = new GlideScopedEvaluator();
+        var dynID;
+        var result;
+        var re = /(DYNAMIC*)[^^]*/g; // 
+        if (tst.match(re)) {
+            var len = tst.match(re).length;
+            for (var i = 0; i < len; i++) {
+                var mt = tst.match(re).pop();
+                script = mt + '';
+                dynID = script.substring(7, script.length);
+
+                var dyn = new GlideRecord('sys_filter_option_dynamic');
+                dyn.get(dynID);
+                result = evaluator.evaluateScript(dyn, 'script');
+                tst = tst.replace(mt, '=' + result);
+            }
+        }
+		return tst + '';
+    }
+
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-09 04:48:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a23ca3a7db75f7003a060726ca96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BACK - Global Queue Incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_script_vtable_a23ca3a7db75f7003a060726ca96196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-09 04:48:00</sys_updated_on>
+        <table>x_snc_gq_st_incident</table>
+    </sys_script_vtable>
+</record_update>

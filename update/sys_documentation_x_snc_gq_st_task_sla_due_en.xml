@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sla_due" label="Next SLA Due" language="en" table="x_snc_gq_st_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sla_due</element>
+            <help/>
+            <hint/>
+            <label>Next SLA Due</label>
+            <language>en</language>
+            <name>x_snc_gq_st_task</name>
+            <plural>Next SLA Dues</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-07 14:30:12</sys_created_on>
+            <sys_id>934e5f43db7577003a060726ca961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Next SLA Due</sys_name>
+            <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_gq_st_task_sla_due_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-07 14:30:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

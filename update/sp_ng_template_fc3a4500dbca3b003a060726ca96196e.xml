@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>menuTemplateCustom</id>
+        <sp_widget display_value="GlobalQ Header Menu">5596054cdb8a3b003a060726ca961960</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 06:17:27</sys_created_on>
+        <sys_id>fc3a4500dbca3b003a060726ca96196e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>menuTemplateCustom</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sp_ng_template_fc3a4500dbca3b003a060726ca96196e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 06:45:07</sys_updated_on>
+        <template><![CDATA[<li ng-repeat="item in item.items" ng-include="'menuTemplateGQ'" />
+<sp-dropdown-tree-template-custom role="menu" aria-label="{{::item.label}}" ng-if="item.scriptedItems.count > 0" items="item.scriptedItems.items" />]]></template>
+    </sp_ng_template>
+</record_update>

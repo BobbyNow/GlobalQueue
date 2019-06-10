@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-09 00:28:16</sys_created_on>
-            <sys_id>0ec0feebdb71f7003a060726ca96198e</sys_id>
+            <sys_created_on>2019-06-09 05:35:02</sys_created_on>
+            <sys_id>5ff6fba3dbb5f7003a060726ca961999</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_table" sys_domain="global" view="Default view">a2eaaff6dbb537003a060726ca961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-09 00:28:16</sys_updated_on>
+            <sys_updated_on>2019-06-09 05:35:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>table</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-09 00:28:16</sys_created_on>
-            <sys_id>8ec0feebdb71f7003a060726ca96198e</sys_id>
+            <sys_created_on>2019-06-09 05:35:02</sys_created_on>
+            <sys_id>d7f6fba3dbb5f7003a060726ca96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_table" sys_domain="global" view="Default view">a2eaaff6dbb537003a060726ca961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-09 00:28:16</sys_updated_on>
+            <sys_updated_on>2019-06-09 05:35:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>remote_table</element>
+            <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-09 00:28:16</sys_created_on>
-            <sys_id>02c0feebdb71f7003a060726ca96198f</sys_id>
+            <sys_created_on>2019-06-09 05:35:02</sys_created_on>
+            <sys_id>5bf6fba3dbb5f7003a060726ca96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_table" sys_domain="global" view="Default view">a2eaaff6dbb537003a060726ca961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-09 00:28:16</sys_updated_on>
+            <sys_updated_on>2019-06-09 05:35:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remote_table</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-09 05:35:02</sys_created_on>
+            <sys_id>dbf6fba3dbb5f7003a060726ca96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_table" sys_domain="global" view="Default view">a2eaaff6dbb537003a060726ca961944</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-09 05:35:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-09 00:28:16</sys_created_on>
-            <sys_id>82c0feebdb71f7003a060726ca96198f</sys_id>
+            <sys_created_on>2019-06-09 05:35:02</sys_created_on>
+            <sys_id>5ff6fba3dbb5f7003a060726ca96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_table" sys_domain="global" view="Default view">a2eaaff6dbb537003a060726ca961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-09 00:28:16</sys_updated_on>
+            <sys_updated_on>2019-06-09 05:35:02</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>condition</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-09 00:28:16</sys_created_on>
-            <sys_id>06c0feebdb71f7003a060726ca96198f</sys_id>
+            <sys_created_on>2019-06-09 05:35:02</sys_created_on>
+            <sys_id>dff6fba3dbb5f7003a060726ca96199a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_table" sys_domain="global" view="Default view">a2eaaff6dbb537003a060726ca961944</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-09 00:28:16</sys_updated_on>
+            <sys_updated_on>2019-06-09 05:35:02</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

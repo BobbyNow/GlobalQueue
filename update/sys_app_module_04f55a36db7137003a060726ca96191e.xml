@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="Global Queue">b7e55a36db7137003a060726ca96191a</application>
         <assessment/>
         <device_type/>
@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04f55a36db7137003a060726ca96191e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Tasks</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_update_name>sys_app_module_04f55a36db7137003a060726ca96191e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-06 20:27:07</sys_updated_on>
+        <sys_updated_on>2019-06-10 18:28:09</sys_updated_on>
         <timeline_page/>
-        <title>Tasks</title>
+        <title>Open Tasks</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

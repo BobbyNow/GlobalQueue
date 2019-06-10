@@ -11,7 +11,7 @@
         <element label="Short Description" max_length="256" name="short_description" type="string"/>
         <element label="Next SLA Due" max_length="40" name="sla_due" type="glide_duration"/>
         <element label="State" max_length="40" name="state" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Task For" max_length="40" name="task_for" type="string"/>
         <index name="index">
             <element name="sys_class_name"/>

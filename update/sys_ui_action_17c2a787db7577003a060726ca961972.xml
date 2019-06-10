@@ -9,10 +9,10 @@
         <comments/>
         <condition/>
         <form_action>true</form_action>
-        <form_button>true</form_button>
+        <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
         <form_context_menu>false</form_context_menu>
-        <form_link>false</form_link>
+        <form_link>true</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <hint/>
@@ -28,7 +28,7 @@
         <name>Manage Table DB Object</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[gs.setRedirect('sys_db_object.do?sysparm_query=name=' + current.table);]]></script>
+        <script><![CDATA[action.setRedirectURL('sys_db_object.do?sysparm_query=name=' + current.table + '&sysparm_nostack=true');]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>17c2a787db7577003a060726ca961972</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Manage Table DB Object</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
@@ -47,7 +47,7 @@
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_update_name>sys_ui_action_17c2a787db7577003a060726ca961972</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-07 14:51:27</sys_updated_on>
+        <sys_updated_on>2019-06-10 07:30:20</sys_updated_on>
         <table>x_snc_gq_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

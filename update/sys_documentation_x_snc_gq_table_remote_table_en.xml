@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="remote_table" label="Remote Table" language="en" table="x_snc_gq_table">
+    <sys_documentation element="remote_table" label="Endpoint table" language="en" table="x_snc_gq_table">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>remote_table</element>
             <help/>
-            <hint/>
-            <label>Remote Table</label>
+            <hint>Table on the remote instance to query data from.</hint>
+            <label>Endpoint table</label>
             <language>en</language>
             <name>x_snc_gq_table</name>
-            <plural>Remote Tables</plural>
+            <plural>Endpoint tables</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-06-09 00:28:16</sys_created_on>
             <sys_id>75c0feebdb71f7003a060726ca961983</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Remote Table</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Endpoint table</sys_name>
             <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
             <sys_policy/>
             <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
             <sys_update_name>sys_documentation_x_snc_gq_table_remote_table_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-09 00:28:16</sys_updated_on>
+            <sys_updated_on>2019-06-09 06:01:35</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
     <sys_script_vtable action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <advanced>false</advanced>
         <cache_isolation_level>USER</cache_isolation_level>
         <cache_strategy>CACHE_BY_QUERY</cache_strategy>
@@ -49,14 +49,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7465e36db7137003a060726ca96199e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Global Queue Task</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_update_name>sys_script_vtable_c7465e36db7137003a060726ca96199e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-09 05:04:28</sys_updated_on>
+        <sys_updated_on>2019-06-14 18:50:53</sys_updated_on>
         <table>x_snc_gq_st_task</table>
     </sys_script_vtable>
 </record_update>

@@ -5,7 +5,7 @@
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
-        <bar_unstack>false</bar_unstack>
+        <bar_unstack>true</bar_unstack>
         <chart_background_color/>
         <chart_border_color/>
         <chart_border_radius>0</chart_border_radius>
@@ -26,7 +26,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>state</column>
+        <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -42,9 +42,11 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>false</exp_report_attrs>
-        <field>priority</field>
-        <field_list/>
-        <filter/>
+        <field/>
+        <field_list>number,active,caller_id,assigned_to,assignment_group,priority,state,sla_due,short_description,company,instance</field_list>
+        <filter table="x_snc_gq_st_incident">priority=1 - Critical^ORDERBYsla_due<item endquery="false" field="priority" goto="false" newquery="false" operator="=" or="false" value="1 - Critical"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="sla_due"/>
+        </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>false</gauge_autoscale>
@@ -74,8 +76,8 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles>snc_internal</roles>
-        <row>priority</row>
+        <roles>snc_internal,x_snc_gq.incident_user</roles>
+        <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -104,25 +106,25 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>02f75900db0e3b003a060726ca961937</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>GQ Open Incidents</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>GQ Open P1 Incidents by SLA</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_update_name>sys_report_02f75900db0e3b003a060726ca961937</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-10 07:17:28</sys_updated_on>
+        <sys_updated_on>2019-06-14 22:34:32</sys_updated_on>
         <table>x_snc_gq_st_incident</table>
-        <title>GQ Open Incidents</title>
+        <title>GQ Open P1 Incidents by SLA</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>pivot_v2</type>
+        <type>list</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>6816f79cc0a8016401c5a33be04be441</user>
+        <user>GLOBAL</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

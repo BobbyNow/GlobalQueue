@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_gq.GlobalQueueTables</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Provides list of available Global Queue tables. Customers should not change this class directly This class is never called directly.</description>
+        <name>GlobalQueueTables</name>
+        <script><![CDATA[var GlobalQueueTables = Class.create();
+
+GlobalQueueTables.prototype = {
+    initialize: function() {},
+
+    process: function() {
+        var result = [];
+        var dict = new GlideRecord("sys_dictionary");
+        dict.addNullQuery("element");
+        var gc = dict.addQuery("nameSTARTSWITHx_snc_gq_st_");
+        dict.orderBy("name");
+        dict.query();
+
+        while (dict.next()) {
+            result.push(dict.name + '');
+        }
+
+        return result;
+    }
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 21:23:43</sys_created_on>
+        <sys_id>7523fad1dbdaf340a261f9e1399619a5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GlobalQueueTables</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_script_include_7523fad1dbdaf340a261f9e1399619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-26 21:26:56</sys_updated_on>
+    </sys_script_include>
+</record_update>

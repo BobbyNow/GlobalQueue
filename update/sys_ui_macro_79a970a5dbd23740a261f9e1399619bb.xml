@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>&lt;form class="form-horizontal"&gt;&#13;
+	&lt;div class="form-group"&gt;&#13;
+		&lt;label class="col-xs-12 col-md-3 control-label"&gt;&#13;
+			&lt;span class="label-text"&gt;Short description&lt;/span&gt;&#13;
+		&lt;/label&gt;&#13;
+		&lt;div class="col-xs-12 col-md-9 form-field input_controls"&gt;&#13;
+			&lt;input value="Unknown source of SAP outage" class="form-control" /&gt;&#13;
+		&lt;/div&gt;&#13;
+	&lt;/div&gt;&#13;
+	&lt;div class="form-group"&gt;&#13;
+		&lt;label class="control-label col-xs-12 col-md-3"&gt;Description&lt;/label&gt;&#13;
+		&lt;div class="col-xs-12 col-md-9 form-field"&gt;&#13;
+			&lt;div class="sn-stream-textarea-container"&gt;&#13;
+				&lt;textarea class="form-control"&gt;Several hours ago we experienced a flood of incidents related to various SAP applications. It has been determined that there is an outage of unknown origin. We are performing root cause analysis.&lt;/textarea&gt;&#13;
+			&lt;/div&gt;&#13;
+		&lt;/div&gt;&#13;
+	&lt;/div&gt;&#13;
+&lt;/form&gt;&#13;
+&#13;
+&lt;j2:forEach var="jvar_arr" items="$[arr]"&gt;&#13;
+		&lt;g:evaluate var="jvar_name" jelly="true" expression="jelly.jvar_arr" /&gt; &#13;
+		$[arr]&#13;
+	&lt;/j2:forEach&gt;</description>
+        <media_type/>
+        <name>form</name>
+        <scoped_name>x_snc_gq_form</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-27 07:11:50</sys_created_on>
+        <sys_id>79a970a5dbd23740a261f9e1399619bb</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>form</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_ui_macro_79a970a5dbd23740a261f9e1399619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-27 21:31:39</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate>
+	var json = new global.JSON();
+	var arr = [];
+	resObj = json.decode('$[current.payload]');
+	for (var i in resObj) {
+	  var row = resObj[i];
+	  for (var j in row) {
+		if (row[j].display_value) {
+		  arr.push([j+'',row[j].display_value+'']);
+		}
+	  }
+	}
+		arr = json.encode(arr);
+	</g2:evaluate>
+	$[arr]
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

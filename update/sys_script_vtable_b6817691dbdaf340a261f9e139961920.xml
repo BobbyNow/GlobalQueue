@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl/>
+        <name>Global Queue CMDB</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    var gqu = new GlobalQueueUtil('x_snc_gq_st_cmdb');
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 21:16:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6817691dbdaf340a261f9e139961920</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Global Queue CMDB</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_script_vtable_b6817691dbdaf340a261f9e139961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-01 05:10:28</sys_updated_on>
+        <table>x_snc_gq_st_cmdb</table>
+    </sys_script_vtable>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Global Queue CMDB" max_length="40" name="x_snc_gq_st_cmdb" type="collection">
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Approval group" max_length="40" name="change_control" type="string"/>
+        <element label="Checked in" max_length="40" name="checked_in" type="glide_date_time"/>
+        <element label="Checked out" max_length="40" name="checked_out" type="glide_date_time"/>
+        <element label="Comments" max_length="4000" name="comments" type="string"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="Cost" max_length="40" name="cost" type="float"/>
+        <element label="Cost currency" max_length="3" name="cost_cc" type="string"/>
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element label="Discovery source" max_length="40" name="discovery_source" type="string"/>
+        <element label="DNS domain" max_length="255" name="dns_domain" type="string"/>
+        <element label="Due" max_length="40" name="due" type="glide_date_time"/>
+        <element label="First discovered" max_length="40" name="first_discovered" type="glide_date_time"/>
+        <element label="Installed" max_length="40" name="install_date" type="glide_date_time"/>
+        <element label="Status" max_length="40" name="install_status" type="string"/>
+        <element label="Maintenance schedule" max_length="60" name="maintenance_schedule" type="string"/>
+        <element label="Name" max_length="255" name="name" type="string"/>
+        <element label="Operational status" max_length="40" name="operational_status" type="string"/>
+        <element label="Serial number" max_length="255" name="serial_number" type="string"/>
+        <element label="Description" max_length="1000" name="short_description" type="string"/>
+        <element label="Subcategory" max_length="40" name="subcategory" type="string"/>
+        <element label="Class" max_length="40" name="sys_class_name" type="string"/>
+    </element>
+</database>

@@ -3,6 +3,6 @@
         <element dependent="table" dependent_on_field="table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="base_start=true,​base_table=task" hint="Table on the remote instance to query data from." label="Endpoint table" max_length="80" name="remote_table" type="table_name"/>
-        <element attributes="base_start=true,base_table=x_snc_gq_st_task" hint="The virtual table in this instance you intend to query." label="vTable" max_length="80" name="table" type="table_name"/>
+        <element attributes="tableChoicesScript=GlobalQueueTables" hint="The virtual table in this instance you intend to query." label="vTable" max_length="80" name="table" type="table_name"/>
     </element>
 </database>

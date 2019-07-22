@@ -4,7 +4,7 @@
         <application display_value="Global Queue">b7e55a36db7137003a060726ca96191a</application>
         <assessment/>
         <device_type/>
-        <filter table="sys_db_object">super_class=816f86e6db71f3003a060726ca961936^scriptable_table=true^EQ<item display_table="sys_db_object" display_value="Task" endquery="false" field="super_class" goto="false" newquery="false" operator="=" or="false" value="816f86e6db71f3003a060726ca961936"/>
+        <filter table="sys_db_object">super_class=816f86e6db71f3003a060726ca961936^scriptable_table=true^EQ<item display_table="sys_db_object" display_value="Global Queue Task" endquery="false" field="super_class" goto="false" newquery="false" operator="=" or="false" value="816f86e6db71f3003a060726ca961936"/>
             <item endquery="false" field="scriptable_table" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>

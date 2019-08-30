@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="DELETE">
+        <active>false</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Global Queue Task</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    var rec = {};
+    var extensions = new global.PAUtils().getTableDecendants('x_snc_gq_st_task');
+    for (var i = 1; i < extensions.length; i++) {
+        var extension = extensions[i] + '';
+        var gr = new GlideRecord(extension);
+        gr.query();
+        while (gr.next()) {
+            rec.assigned_to = gr.assigned_to;
+            rec.assignment_group = gr.assignment_group.getDisplayValue();
+            rec.priority = gr.priority.getDisplayValue();
+            rec.sys_id = gr.sys_id;
+            rec.short_description = gr.short_description;
+            rec.number = gr.number;
+            rec.company = gr.company.getDisplayValue();
+            rec.endpoint = gr.endpoint;
+            if (gr.isValidField('caller_id')) {
+                rec.task_for = gr.caller_id;
+            } else if (gr.isValidField('requestor')) {
+                rec.task_for = gr.requestor;
+            } else if (gr.isValidField('requested_by')) {
+                rec.task_for = gr.requested_by;
+            } else if (gr.isValidField('requested_for')) {
+                rec.task_for = gr.requested_for;
+            } else {
+                rec.task_for = '<Not Mapped>';
+            }
+			rec.sys_updated_on = gr.sys_updated_on;
+            rec.sys_class_name = extension;
+			rec.instance = gr.instance;
+			rec.sla_due = gr.sla_due;
+			rec.state = gr.state.getDisplayValue();
+			rec.active = gr.active;
+            v_table.addRow(rec);
+        }
+    }
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 14:37:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7465e36db7137003a060726ca96199e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Global Queue Task</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_script_vtable_c7465e36db7137003a060726ca96199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 18:50:53</sys_updated_on>
+        <table>x_snc_gq_st_task</table>
+    </sys_script_vtable>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_script_vtable_c7465e36db7137003a060726ca96199e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_vtable"&gt;&lt;sys_script_vtable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;cache_isolation_level&gt;USER&lt;/cache_isolation_level&gt;&lt;cache_strategy&gt;CACHE_BY_QUERY&lt;/cache_strategy&gt;&lt;cache_ttl&gt;0&lt;/cache_ttl&gt;&lt;name&gt;Global Queue Task&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function executeQuery(v_table, v_query) {
+    var rec = {};
+    var extensions = new global.PAUtils().getTableDecendants('x_snc_gq_st_task');
+    for (var i = 1; i &lt; extensions.length; i++) {
+        var extension = extensions[i] + '';
+        var gr = new GlideRecord(extension);
+        gr.query();
+        while (gr.next()) {
+            rec.assigned_to = gr.assigned_to;
+            rec.assignment_group = gr.assignment_group.getDisplayValue();
+            rec.priority = gr.priority.getDisplayValue();
+            rec.sys_id = gr.sys_id;
+            rec.short_description = gr.short_description;
+            rec.number = gr.number;
+            rec.company = gr.company.getDisplayValue();
+            rec.endpoint = gr.endpoint;
+            if (gr.isValidField('caller_id')) {
+                rec.task_for = gr.caller_id;
+            } else if (gr.isValidField('requestor')) {
+                rec.task_for = gr.requestor;
+            } else if (gr.isValidField('requested_by')) {
+                rec.task_for = gr.requested_by;
+            } else if (gr.isValidField('requested_for')) {
+                rec.task_for = gr.requested_for;
+            } else {
+                rec.task_for = '&lt;Not Mapped&gt;';
+            }
+			rec.sys_updated_on = gr.sys_updated_on;
+            rec.sys_class_name = extension;
+			rec.instance = gr.instance;
+			rec.sla_due = gr.sla_due;
+			rec.state = gr.state.getDisplayValue();
+			rec.active = gr.active;
+            v_table.addRow(rec);
+        }
+    }
+})(v_table, v_query);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_vtable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-06 14:37:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c7465e36db7137003a060726ca96199e&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Global Queue Task&lt;/sys_name&gt;&lt;sys_package display_value="Global Queue" source="x_snc_gq"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Queue"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_vtable_c7465e36db7137003a060726ca96199e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-14 18:50:53&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_gq_st_task&lt;/table&gt;&lt;/sys_script_vtable&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>561702399</payload_hash>
+        <record_name>Global Queue Task</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-14 18:50:53</sys_created_on>
+        <sys_id>4e1d146ddbc27700a261f9e139961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b57540a320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-14 18:50:53</sys_updated_on>
+        <type>Remote Table</type>
+        <update_guid>c61d146d12c27700830acf1a4f5e2849</update_guid>
+        <update_guid_history>c61d146d12c27700830acf1a4f5e2849:561702399,7fff27ebde75f700c1666ccf6fadeab7:-2131125530,4fdf63eba675f7002e4f1ea3b4bc2123:1223556080,50cfefabe675f700f4cecba28fcf38c4:218714136,88afabab2f75f7009a45a4d7332931b1:2136882028,de5fe76b2375f700e865d35de0d4a063:1006038252,342fe36b6175f700ffe5ca96af8c7216:1184124740,6cbf12fe14713700be035197c7b39305:794577250,52d996f63a7137001148a40622b17f58:-1778916003,86765e369971370041dd5a4b3b1029e1:-2006402949,cb465e363c713700ff62735629c89da0:99488287</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 17:02:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_vtable">sys_script_vtable</sys_db_object>
+        <sys_id>0e1bf8ca67b745f582b6b188014e11c1</sys_id>
+        <sys_metadata>c7465e36db7137003a060726ca96199e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Task</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_script_vtable_c7465e36db7137003a060726ca96199e</sys_update_name>
+        <sys_update_version display_value="sys_script_vtable_c7465e36db7137003a060726ca96199e">4e1d146ddbc27700a261f9e139961949</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 17:02:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

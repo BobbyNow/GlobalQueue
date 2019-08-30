@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_snc_gq_st_problem</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 15:09:53</sys_created_on>
+        <sys_id>b2cdde3edb7137003a060726ca9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq_st_problem</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>ua_table_licensing_config_b2cdde3edb7137003a060726ca9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 15:09:53</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>ua_table_licensing_config_b2cdde3edb7137003a060726ca9619a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_snc_gq_st_problem</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-06 15:09:53</sys_created_on><sys_id>b2cdde3edb7137003a060726ca9619a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_gq_st_problem</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>ua_table_licensing_config_b2cdde3edb7137003a060726ca9619a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-06 15:09:53</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>8009401</payload_hash>
+        <record_name>x_snc_gq_st_problem</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 15:09:53</sys_created_on>
+        <sys_id>3acdde3edb7137003a060726ca9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b2d56d2a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 15:09:53</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>72cdde3e66713700e833f00edf04fea6</update_guid>
+        <update_guid_history>72cdde3e66713700e833f00edf04fea6:8009401</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 17:02:16</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>04de5ddaa9734168867a9a8eceabf490</sys_id>
+        <sys_metadata>b2cdde3edb7137003a060726ca9619a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq_st_problem</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_b2cdde3edb7137003a060726ca9619a5</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_b2cdde3edb7137003a060726ca9619a5">3acdde3edb7137003a060726ca9619a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 17:02:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -13,42 +13,42 @@ GlobalQueueUtil.prototype = {
         var json = new global.JSON();
 
         //This section runs for st_references that are on a record that is being loaded, not when a st_reference is drilled into
-//         if (v_query.isGet() && typeof current != 'undefined') {
-//             //gs.info(11);
-//             //gs.info('typeof current: ' + typeof current + ':' + vTable);
-//             var id = v_query.getSysId() + '';
-//             var tbl = '';
+        //         if (v_query.isGet() && typeof current != 'undefined') {
+        //             //gs.info(11);
+        //             //gs.info('typeof current: ' + typeof current + ':' + vTable);
+        //             var id = v_query.getSysId() + '';
+        //             var tbl = '';
 
-//             var flds = current.getElements();
-//             for (i in flds) {
-//                 if (flds[i] + '' == id) {
-//                     tbl = flds[i].getED().getName() + '';
-//                 }
-//             }
-//             //gs.info('tbl: ' + tbl);
-//             //tbl = 'cmdb_ci';
-//             var instance = current.instance;
-//             var epRec = new GlideRecord('x_snc_gq_endpoint');
-//             if (epRec.get('name', instance)) {
-//                 //gs.info('current.instance: ' + current.instance);
-//                 this.getRemote(epRec.url, tbl, 'sys_id=' + v_query.getSysId(), epRec.credential, [
-//                     ['name', 'string'],
-//                     ['payload', 'string'],
-//                     ['sys_id', 'guid']
-//                 ], epRec.name, vTable);
+        //             var flds = current.getElements();
+        //             for (i in flds) {
+        //                 if (flds[i] + '' == id) {
+        //                     tbl = flds[i].getED().getName() + '';
+        //                 }
+        //             }
+        //             //gs.info('tbl: ' + tbl);
+        //             //tbl = 'cmdb_ci';
+        //             var instance = current.instance;
+        //             var epRec = new GlideRecord('x_snc_gq_endpoint');
+        //             if (epRec.get('name', instance)) {
+        //                 //gs.info('current.instance: ' + current.instance);
+        //                 this.getRemote(epRec.url, tbl, 'sys_id=' + v_query.getSysId(), epRec.credential, [
+        //                     ['name', 'string'],
+        //                     ['payload', 'string'],
+        //                     ['sys_id', 'guid']
+        //                 ], epRec.name, vTable);
 
-//             }
-//             return;
-//         }
+        //             }
+        //             return;
+        //         }
 
 
         //Get active fields from table.
-		
+
         var encodedQuery = this.getSupersForQuery(vTable);
-        gs.info('encodedQuery: ' + encodedQuery);
-		if (typeof encodedQuery == 'undefined') {
-			gs.info('vTable' + vTable);
-			}
+        //gs.info('encodedQuery: ' + encodedQuery);
+        if (typeof encodedQuery == 'undefined') {
+            gs.info('vTable' + vTable);
+        }
         var fields = [];
         var ele = '';
         var gr = new GlideRecord('sys_dictionary');
@@ -132,7 +132,7 @@ GlobalQueueUtil.prototype = {
             arr.push(fields[m][0]);
         }
 
-            request.setQueryParameter('sysparm_fields', arr.toString());
+        request.setQueryParameter('sysparm_fields', arr.toString());
 
 
 
@@ -153,12 +153,12 @@ GlobalQueueUtil.prototype = {
             var fieldArr;
             var field;
             var internalType;
-            var reference;
+            //var reference;
             for (k in fields) {
                 fieldArr = fields[k];
                 field = fieldArr[0] + '';
                 internalType = fieldArr[1] + '';
-                reference = fieldArr[2] + '';
+                //reference = fieldArr[2] + '';
                 //gs.info('FIELD: ' + field +':'+internalType + ':' + reference);
                 if (row[field]) {
                     switch (internalType) {
@@ -174,13 +174,13 @@ GlobalQueueUtil.prototype = {
             rec.endpoint = url + table + '.do?sys_id=' + rec.sys_id;
             rec.instance = endpointName;
 
-//             if (vTable == 'x_snc_gq_st_reference') {
-//                 rec.payload = json.encode(result);
-//             }
+            //             if (vTable == 'x_snc_gq_st_reference') {
+            //                 rec.payload = json.encode(result);
+            //             }
 
             v_table.addRow(rec);
-			
-			gs.info('REC: ' + json.encode(rec));
+
+            //gs.info('REC: ' + json.encode(rec));
         }
 
     },
@@ -224,14 +224,17 @@ GlobalQueueUtil.prototype = {
         if (tst.match(re)) {
             var len = tst.match(re).length;
             for (var i = 0; i < len; i++) {
-                var mt = tst.match(re).pop();
-                script = mt + '';
-                dynID = script.substring(7, script.length);
-
-                var dyn = new GlideRecord('sys_filter_option_dynamic');
-                dyn.get(dynID);
-                result = evaluator.evaluateScript(dyn, 'script');
-                tst = tst.replace(mt, '=' + result);
+                try {
+                    var mt = tst.match(re).pop();
+                    script = mt + '';
+                    dynID = script.substring(7, script.length);
+                    var dyn = new GlideRecord('sys_filter_option_dynamic');
+                    dyn.get(dynID);
+                    result = evaluator.evaluateScript(dyn, 'script');
+                    tst = tst.replace(mt, '=' + result);
+                } finally{
+					//nothing
+				}
             }
         }
         return tst + '';
@@ -250,7 +253,7 @@ GlobalQueueUtil.prototype = {
             this.getSupersForQuery(dbo.super_class.name + '', arr);
             return arr.join('');
         }
-		return arr.join('');
+        return arr.join('');
     },
 
     type: 'GlobalQueueUtil'
@@ -259,13 +262,13 @@ GlobalQueueUtil.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-09 04:50:49</sys_created_on>
         <sys_id>f42be3a7db75f7003a060726ca9619ab</sys_id>
-        <sys_mod_count>122</sys_mod_count>
+        <sys_mod_count>129</sys_mod_count>
         <sys_name>GlobalQueueUtil</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_update_name>sys_script_include_f42be3a7db75f7003a060726ca9619ab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-01 05:43:26</sys_updated_on>
+        <sys_updated_on>2019-07-23 17:36:31</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Global Queue Incident</name>
+        <order>100</order>
+        <roles>x_snc_gq.global_queue_incident_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:53:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a38a280edb367300a261f9e13996197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_app_application_a38a280edb367300a261f9e13996197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:53:45</sys_updated_on>
+        <title>Global Queue Incident</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_app_application_a38a280edb367300a261f9e13996197c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Global Queue Incident</name><order>100</order><roles>x_snc_gq.global_queue_incident_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-23 15:53:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a38a280edb367300a261f9e13996197c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Global Queue Incident</sys_name><sys_overrides/><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sys_app_application_a38a280edb367300a261f9e13996197c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-07-23 15:53:45</sys_updated_on><title>Global Queue Incident</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>752646580</payload_hash>
+        <record_name>Global Queue Incident</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:53:45</sys_created_on>
+        <sys_id>778a280edb367300a261f9e13996197f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c1f89e0500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:53:45</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>bf8a280e6e367300e8d3bc00546ef67e</update_guid>
+        <update_guid_history>bf8a280e6e367300e8d3bc00546ef67e:752646580</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Global Queue Incident">f8fa204edb367300a261f9e1399619e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:55:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>0f62d9d0cf854a088f623670ca33e240</sys_id>
+        <sys_metadata>a38a280edb367300a261f9e13996197c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_app_application_a38a280edb367300a261f9e13996197c</sys_update_name>
+        <sys_update_version display_value="sys_app_application_a38a280edb367300a261f9e13996197c">778a280edb367300a261f9e13996197f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:55:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

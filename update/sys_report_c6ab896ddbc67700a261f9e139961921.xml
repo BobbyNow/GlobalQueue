@@ -74,7 +74,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles>snc_internal,x_snc_gq.incident_user</roles>
+        <roles>snc_internal</roles>
         <row>priority</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>

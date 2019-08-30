@@ -4,16 +4,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-26 21:15:43</sys_created_on>
         <sys_id>a851f291dbdaf340a261f9e13996196f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_gq_st_cmdb.x_snc_gq.cmdb_user</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_gq_st_cmdb.x_snc_gq.user</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_security_acl display_value="x_snc_gq_st_cmdb">2c51f291dbdaf340a261f9e13996196b</sys_security_acl>
         <sys_update_name>sys_security_acl_role_a851f291dbdaf340a261f9e13996196f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-26 21:15:43</sys_updated_on>
-        <sys_user_role display_value="x_snc_gq.cmdb_user" name="x_snc_gq.cmdb_user">67413251dbdaf340a261f9e1399619a9</sys_user_role>
+        <sys_updated_on>2019-08-29 13:36:16</sys_updated_on>
+        <sys_user_role display_value="x_snc_gq.user" name="x_snc_gq.user">e38a2a92db31b3003a060726ca9619ee</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

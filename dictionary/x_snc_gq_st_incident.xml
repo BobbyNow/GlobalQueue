@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="x_snc_gq_st_task" label="Global Queue Incident" max_length="40" name="x_snc_gq_st_incident" type="collection">
+    <element label="Global Queue Incident" max_length="40" name="x_snc_gq_st_incident" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Caller ID" max_length="40" name="caller_id" type="string"/>
+        <element label="Configuration item" max_length="40" name="cmdb_ci" type="string"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="Endpoint" max_length="1024" name="endpoint" type="url"/>
+        <element label="Instance" max_length="40" name="instance" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Priority" max_length="40" name="priority" type="string"/>
+        <element label="Short Description" max_length="256" name="short_description" type="string"/>
+        <element label="Next SLA Due" max_length="40" name="sla_due" type="glide_duration"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
     </element>
 </database>

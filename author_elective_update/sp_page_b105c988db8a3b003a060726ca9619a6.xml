@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>gq_problem</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 05:54:27</sys_created_on>
+        <sys_id>b105c988db8a3b003a060726ca9619a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>gq_problem</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sp_page_b105c988db8a3b003a060726ca9619a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 05:54:55</sys_updated_on>
+        <title>GlobalQ Problems</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=b105c988db8a3b003a060726ca9619a6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sp_page_b105c988db8a3b003a060726ca9619a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>gq_problem</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-10 05:54:27</sys_created_on><sys_id>b105c988db8a3b003a060726ca9619a6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gq_problem</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sp_page_b105c988db8a3b003a060726ca9619a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-10 05:54:55</sys_updated_on><title>GlobalQ Problems</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=b105c988db8a3b003a060726ca9619a6"/></record_update>]]></payload>
+        <payload_hash>1559067459</payload_hash>
+        <record_name>gq_problem</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 05:54:55</sys_created_on>
+        <sys_id>642505c8db8a3b003a060726ca961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b3ff42cf70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 05:54:55</sys_updated_on>
+        <type>Page</type>
+        <update_guid>ec2505c8778a3b005c3203ee5b49db98</update_guid>
+        <update_guid_history>ec2505c8778a3b005c3203ee5b49db98:1559067459,7105c988a08a3b00c1cd071ca00785a8:-676189686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="gq_problem">df20f6b1dbaf7f80a261f9e13996199a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:46:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>2653cda6be43456e8dfa4f48b35f56c9</sys_id>
+        <sys_metadata>b105c988db8a3b003a060726ca9619a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gq_problem</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sp_page_b105c988db8a3b003a060726ca9619a6</sys_update_name>
+        <sys_update_version display_value="sp_page_b105c988db8a3b003a060726ca9619a6">642505c8db8a3b003a060726ca961999</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:46:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

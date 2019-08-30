@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>standard</category>
+        <client_script><![CDATA[function ($scope, spUtil, $location, spAriaFocusManager) {
+	$scope.$on('data_table.click', function(e, data){
+		//var p = $scope.data.page_id || 'form';
+		//var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: 'sp'};
+		//var newURL = $location.search(s);
+		//spAriaFocusManager.navigateToLink(newURL.url());
+		console.log(JSON.stringify(data));
+		window.open(data.record.endpoint);
+	});
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance_table</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>table,filter,field_list,maximum_entries,order_by,order_direction,title,color,glyph,sp_page</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>GlobalQ Data Table</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[(function(){
+	/*  "use strict"; - linter issues */
+	// populate the 'data' object
+	var sp_page = $sp.getValue('sp_page');
+	var pageGR = new GlideRecord('sp_page');
+	pageGR.get(sp_page);
+	data.page_id = pageGR.getValue("id");
+	$sp.getValues(data);
+	if (data.field_list) {
+		data.fields_array = data.field_list.split(',');
+	} else {
+		data.field_list = $sp.getListColumns(data.table);
+	}
+
+	if (input) {
+		data.p = input.p;
+		data.o = input.o;
+		data.d = input.d;
+		data.q = input.q;
+	}
+	data.p = data.p || 1;
+	data.o = data.o || $sp.getValue('order_by');
+	data.d = data.d || $sp.getValue('order_direction');
+
+	data.page_index = (data.p - 1);
+	data.window_size = $sp.getValue('maximum_entries') || 10;
+	data.window_start  = (data.page_index * data.window_size);
+	data.window_end = (((data.page_index + 1) * data.window_size));
+	data.filter = $sp.getValue("filter");
+
+	var gr = new GlideRecord(data.table);
+	if (!gr.isValid()) {
+		data.invalid_table = true;
+		data.table_label = data.table;
+		return;
+	}
+	data.table_label = gr.getLabel();
+
+	options.table = data.table;
+	options.fields = data.field_list;
+	options.o=data.o;
+	options.d= data.d;
+	options.filter=data.filter;
+	options.window_size=data.window_size;
+	options.view = 'sp';
+	options.headerTitle =options.title;
+	options.show_breadcrumbs=true;
+	
+	data.dataTableWidget = $sp.getWidget('widget-data-table-gq', options);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-09 20:51:28</sys_created_on>
+        <sys_id>b7b847bfdbb13b003a060726ca961905</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>GlobalQ Data Table</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sp_widget_b7b847bfdbb13b003a060726ca961905</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 07:08:07</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="alert alert-danger" ng-if="data.invalid_table">
+    ${Table not defined} '{{data.table_label}}'
+  </div>
+  <sp-widget ng-if="data.dataTableWidget" widget="data.dataTableWidget"></sp-widget>
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sp_widget_b7b847bfdbb13b003a060726ca961905</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($scope, spUtil, $location, spAriaFocusManager) {
+	$scope.$on('data_table.click', function(e, data){
+		//var p = $scope.data.page_id || 'form';
+		//var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: 'sp'};
+		//var newURL = $location.search(s);
+		//spAriaFocusManager.navigateToLink(newURL.url());
+		console.log(JSON.stringify(data));
+		window.open(data.record.endpoint);
+	});
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance_table&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;table,filter,field_list,maximum_entries,order_by,order_direction,title,color,glyph,sp_page&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;GlobalQ Data Table&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	/*  "use strict"; - linter issues */
+	// populate the 'data' object
+	var sp_page = $sp.getValue('sp_page');
+	var pageGR = new GlideRecord('sp_page');
+	pageGR.get(sp_page);
+	data.page_id = pageGR.getValue("id");
+	$sp.getValues(data);
+	if (data.field_list) {
+		data.fields_array = data.field_list.split(',');
+	} else {
+		data.field_list = $sp.getListColumns(data.table);
+	}
+
+	if (input) {
+		data.p = input.p;
+		data.o = input.o;
+		data.d = input.d;
+		data.q = input.q;
+	}
+	data.p = data.p || 1;
+	data.o = data.o || $sp.getValue('order_by');
+	data.d = data.d || $sp.getValue('order_direction');
+
+	data.page_index = (data.p - 1);
+	data.window_size = $sp.getValue('maximum_entries') || 10;
+	data.window_start  = (data.page_index * data.window_size);
+	data.window_end = (((data.page_index + 1) * data.window_size));
+	data.filter = $sp.getValue("filter");
+
+	var gr = new GlideRecord(data.table);
+	if (!gr.isValid()) {
+		data.invalid_table = true;
+		data.table_label = data.table;
+		return;
+	}
+	data.table_label = gr.getLabel();
+
+	options.table = data.table;
+	options.fields = data.field_list;
+	options.o=data.o;
+	options.d= data.d;
+	options.filter=data.filter;
+	options.window_size=data.window_size;
+	options.view = 'sp';
+	options.headerTitle =options.title;
+	options.show_breadcrumbs=true;
+	
+	data.dataTableWidget = $sp.getWidget('widget-data-table-gq', options);
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-09 20:51:28&lt;/sys_created_on&gt;&lt;sys_id&gt;b7b847bfdbb13b003a060726ca961905&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;GlobalQ Data Table&lt;/sys_name&gt;&lt;sys_package display_value="Global Queue" source="x_snc_gq"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Queue"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_b7b847bfdbb13b003a060726ca961905&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-10 07:08:07&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;div class="alert alert-danger" ng-if="data.invalid_table"&gt;
+    ${Table not defined} '{{data.table_label}}'
+  &lt;/div&gt;
+  &lt;sp-widget ng-if="data.dataTableWidget" widget="data.dataTableWidget"&gt;&lt;/sp-widget&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2138185121</payload_hash>
+        <record_name>GlobalQ Data Table</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 07:08:07</sys_created_on>
+        <sys_id>7ce5990cdbca3b003a060726ca96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b403731320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 07:08:07</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>f4e5990cedca3b00e1d59feb6916fd8b</update_guid>
+        <update_guid_history>f4e5990cedca3b00e1d59feb6916fd8b:-2138185121,9d45190c07ca3b005ca8c32a542aa5dc:1732288272,1115198865ca3b005f057ebf66bba698:1117563132,64431988a1ca3b00cda13b48e09e2377:98358635,d6f009049b8a3b002caa6f70c1a687eb:1818479924,721089c0678a3b00981dea39229b51bb:699349835,c9cf34c0b18a3b006c568865caad949c:-30020057,f06f7040cb8a3b00738ec04ce326a105:2118196722,9b3f3440088a3b00cb1ecdaa625de9c7:-1803570717,30be3440448a3b00a4bc721f1989afc3:456250532,51cd34404c8a3b00c44d47a2bf0c89be:-550882018,0abd3c00908a3b00fa5c78fa060434e1:1485048047,a98d3c00fe8a3b000022ccd3cd2372c7:-853565098,694d38ccf60a3b009f716dd026d26a29:257547861,ecba608ccc0a3b0021d27b4877a59302:1738553429,266aac0c0b0a3b00441d08e024e7a994:1912343959,8b89a80c1f0a3b00ba749a913e15237b:237672147,9e496c80d4c63b003b00fb92995da87e:-277932331,a82cc3f341f13b00da60204b3426b1f1:852304949,f19b8bb3f0f13b00003662fd5ce978e9:237672147,be3b4fb39ef13b00fa0a2cf6701ae2bd:1388457607,960b8bb3b5f13b00b3379c90d7087d58:-1761459563,f69ac3b398f13b00fc3f4a353368781a:-691679019,ac8acf7307f13b00818ec15391ce4760:-1354089081,b9d8c333f8f13b0003f81b3e6199b9e6:-691679019,3bb847bf2ab13b00b64d294431331307:-1901787011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GlobalQ Data Table">a580beb1dbaf7f80a261f9e139961903</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:47:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>192356331da04c809d46856409410900</sys_id>
+        <sys_metadata>b7b847bfdbb13b003a060726ca961905</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlobalQ Data Table</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sp_widget_b7b847bfdbb13b003a060726ca961905</sys_update_name>
+        <sys_update_version display_value="sp_widget_b7b847bfdbb13b003a060726ca961905">7ce5990cdbca3b003a060726ca96198b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:47:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

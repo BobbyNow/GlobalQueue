@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Open Incidents - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="incident">398e3ef3dbb13b003a060726ca96197a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-09 20:07:07</sys_created_on>
+        <sys_id>0a9eba37dbb13b003a060726ca9619c7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Open Incidents - Container 1</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sp_container_0a9eba37dbb13b003a060726ca9619c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 04:01:46</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sp_container_0a9eba37dbb13b003a060726ca9619c7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Open Incidents - Container 1</name><order>1</order><sp_page display_value="incident">398e3ef3dbb13b003a060726ca96197a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-09 20:07:07</sys_created_on><sys_id>0a9eba37dbb13b003a060726ca9619c7</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Open Incidents - Container 1</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sp_container_0a9eba37dbb13b003a060726ca9619c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-10 04:01:46</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1888274634</payload_hash>
+        <record_name>Open Incidents - Container 1</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 04:01:46</sys_created_on>
+        <sys_id>8b3b24ccdb0a3b003a060726ca961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b3f8c97c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 04:01:46</sys_updated_on>
+        <type>Container</type>
+        <update_guid>073b24cceb0a3b00f316c9c5f891e923</update_guid>
+        <update_guid_history>073b24cceb0a3b00f316c9c5f891e923:1888274634,9e3be4ccdc0a3b00194623472a25f7ef:-1688086519,dd3be4cce50a3b005da8d6184588aeb2:-969480376,8bfa24cceb0a3b004328d732b1f3aa00:-1688086519,4e9eba37f1b13b000707bad1f19d20c8:1888274634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Open Incidents - Container 1">4720f6b1dbaf7f80a261f9e139961919</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:46:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>680bf50598ff4de4bafab8a3a43ec719</sys_id>
+        <sys_metadata>0a9eba37dbb13b003a060726ca9619c7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Incidents - Container 1</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sp_container_0a9eba37dbb13b003a060726ca9619c7</sys_update_name>
+        <sys_update_version display_value="sp_container_0a9eba37dbb13b003a060726ca9619c7">8b3b24ccdb0a3b003a060726ca961923</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:46:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

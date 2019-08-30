@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_gq.task_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>task_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 14:35:30</sys_created_on>
+        <sys_id>53e51a36db7137003a060726ca9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq.task_user</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_user_role_53e51a36db7137003a060726ca9619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 14:35:30</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_user_role_53e51a36db7137003a060726ca9619cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_snc_gq.task_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>task_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-06 14:35:30</sys_created_on><sys_id>53e51a36db7137003a060726ca9619cc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_gq.task_user</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sys_user_role_53e51a36db7137003a060726ca9619cc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-06 14:35:30</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1593236783</payload_hash>
+        <record_name>x_snc_gq.task_user</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 14:35:30</sys_created_on>
+        <sys_id>1fe51a36db7137003a060726ca9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b2d375ab80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 14:35:30</sys_updated_on>
+        <type>Role</type>
+        <update_guid>57e51a36c9713700013209cae7f23ad3</update_guid>
+        <update_guid_history>57e51a36c9713700013209cae7f23ad3:-1593236783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_gq.task_user">112f2631dbaf7f80a261f9e1399619a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:41:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>830ca6b4926b421894979684851a5d10</sys_id>
+        <sys_metadata>53e51a36db7137003a060726ca9619cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq.task_user</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_user_role_53e51a36db7137003a060726ca9619cc</sys_update_name>
+        <sys_update_version display_value="sys_user_role_53e51a36db7137003a060726ca9619cc">1fe51a36db7137003a060726ca9619d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:41:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

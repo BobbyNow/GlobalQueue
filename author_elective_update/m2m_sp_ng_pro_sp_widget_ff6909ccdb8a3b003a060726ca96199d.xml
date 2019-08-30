@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="spDropdownTreeTemplateGQ">f4d889ccdb8a3b003a060726ca961929</sp_angular_provider>
+        <sp_widget display_value="GlobalQ Header Menu">5596054cdb8a3b003a060726ca961960</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 06:13:43</sys_created_on>
+        <sys_id>ff6909ccdb8a3b003a060726ca96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spDropdownTreeTemplateGQ.GlobalQ Header Menu</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_ff6909ccdb8a3b003a060726ca96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 06:13:43</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_ff6909ccdb8a3b003a060726ca96199d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spDropdownTreeTemplateGQ">f4d889ccdb8a3b003a060726ca961929</sp_angular_provider><sp_widget display_value="GlobalQ Header Menu">5596054cdb8a3b003a060726ca961960</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-10 06:13:43</sys_created_on><sys_id>ff6909ccdb8a3b003a060726ca96199d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spDropdownTreeTemplateGQ.GlobalQ Header Menu</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_ff6909ccdb8a3b003a060726ca96199d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-10 06:13:43</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>-501793913</payload_hash>
+        <record_name>spDropdownTreeTemplateGQ.GlobalQ Header Menu</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 06:13:43</sys_created_on>
+        <sys_id>f76909ccdb8a3b003a060726ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b400563750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 06:13:43</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>336909ccac8a3b00d06855cee64820a0</update_guid>
+        <update_guid_history>336909ccac8a3b00d06855cee64820a0:-501793913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="spDropdownTreeTemplateGQ.GlobalQ Header Menu">1d807eb1dbaf7f80a261f9e1399619eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:47:39</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>20fd0614c53545db8ac3f794142eeba1</sys_id>
+        <sys_metadata>ff6909ccdb8a3b003a060726ca96199d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spDropdownTreeTemplateGQ.GlobalQ Header Menu</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_ff6909ccdb8a3b003a060726ca96199d</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_ff6909ccdb8a3b003a060726ca96199d">f76909ccdb8a3b003a060726ca9619a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:47:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

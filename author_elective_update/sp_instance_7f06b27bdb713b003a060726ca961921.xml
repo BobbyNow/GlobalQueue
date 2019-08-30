@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">75a6323fdb713b003a060726ca961986</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-09 19:29:49</sys_created_on>
+        <sys_id>7f06b27bdb713b003a060726ca961921</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sp_instance_7f06b27bdb713b003a060726ca961921</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-09 19:33:57</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "a1c6198f470111002ee987e8dee4900b",
+		"displayValue": "Problems by State"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f06b27bdb713b003a060726ca961921"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sp_instance_7f06b27bdb713b003a060726ca961921</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;75a6323fdb713b003a060726ca961986&lt;/sp_column&gt;&lt;sp_widget display_value="Report"&gt;e41aa2d29f0222008252baac757fcfce&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-09 19:29:49&lt;/sys_created_on&gt;&lt;sys_id&gt;7f06b27bdb713b003a060726ca961921&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Global Queue" source="x_snc_gq"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Queue"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_7f06b27bdb713b003a060726ca961921&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-09 19:33:57&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"report_id": {
+		"value": "a1c6198f470111002ee987e8dee4900b",
+		"displayValue": "Problems by State"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7f06b27bdb713b003a060726ca961921"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1589984118</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-09 19:33:57</sys_created_on>
+        <sys_id>1007fa3fdb713b003a060726ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b3dbbaac80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-09 19:33:57</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>9807fa3fb3713b00d14e95eb5d1c6f08</update_guid>
+        <update_guid_history>9807fa3fb3713b00d14e95eb5d1c6f08:-1589984118,10e63a3ff8713b002263429dc9bc8d99:-1865278935,5dc6763f6f713b002d1a82878f77b516:1205335,73667efb56713b001f66162c3dd13e19:-1378933978,7f063afbbe713b00be5915ad6ee877c2:1945926208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9720f6b1dbaf7f80a261f9e13996195d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:46:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>00ac1da7c0804cf0807821ab7b698d24</sys_id>
+        <sys_metadata>7f06b27bdb713b003a060726ca961921</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sp_instance_7f06b27bdb713b003a060726ca961921</sys_update_name>
+        <sys_update_version display_value="sp_instance_7f06b27bdb713b003a060726ca961921">1007fa3fdb713b003a060726ca961909</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:46:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

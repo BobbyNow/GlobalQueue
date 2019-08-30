@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Reference" max_length="40" name="x_snc_gq_st_reference" type="collection">
-        <element label="Name" max_length="40" name="name" type="string"/>
-        <element label="Payload" max_length="4096000" name="payload" type="string"/>
-    </element>
-</database>

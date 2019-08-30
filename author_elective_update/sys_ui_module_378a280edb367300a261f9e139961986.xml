@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Global Queue Incidents</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:53:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>378a280edb367300a261f9e139961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Incidents</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_ui_module_378a280edb367300a261f9e139961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:53:45</sys_updated_on>
+        <table>x_snc_gq_st_incident</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_ui_module_378a280edb367300a261f9e139961986</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Global Queue Incidents</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-23 15:53:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>378a280edb367300a261f9e139961986</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Global Queue Incidents</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sys_ui_module_378a280edb367300a261f9e139961986</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-07-23 15:53:45</sys_updated_on><table>x_snc_gq_st_incident</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-184128465</payload_hash>
+        <record_name>Global Queue Incidents</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:42:10</sys_created_on>
+        <sys_id>8d4fe631dbaf7f80a261f9e139961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16cdd9cb5370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:42:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>378a280ea0367300825cdf3098489b88</update_guid>
+        <update_guid_history>378a280ea0367300825cdf3098489b88:1237494724,378a280ea0367300825cdf3098489b88:1237494724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-29 13:42:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>af2ed860dce148fc8c9e375fce8bcb90</sys_id>
+        <sys_metadata>378a280edb367300a261f9e139961986</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Incidents</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_378a280edb367300a261f9e139961986</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_378a280edb367300a261f9e139961986">8d4fe631dbaf7f80a261f9e139961956</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-29 13:42:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

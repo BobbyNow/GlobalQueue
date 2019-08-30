@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="DELETE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl/>
+        <name>Global Queue Incident</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    var gqu = new GlobalQueueUtil('x_snc_gq_st_incident');
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 14:57:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>400b5a3adb7137003a060726ca96193e</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>Global Queue Incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_script_vtable_400b5a3adb7137003a060726ca96193e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-27 21:05:35</sys_updated_on>
+        <table>x_snc_gq_st_incident</table>
+    </sys_script_vtable>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_script_vtable_400b5a3adb7137003a060726ca96193e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_vtable"&gt;&lt;sys_script_vtable action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;cache_isolation_level&gt;USER&lt;/cache_isolation_level&gt;&lt;cache_strategy&gt;CACHE_BY_QUERY&lt;/cache_strategy&gt;&lt;cache_ttl/&gt;&lt;name&gt;Global Queue Incident&lt;/name&gt;&lt;script&gt;&lt;![CDATA[(function executeQuery(v_table, v_query) {
+    var gqu = new GlobalQueueUtil('x_snc_gq_st_incident');
+})(v_table, v_query);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_vtable&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-06-06 14:57:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;400b5a3adb7137003a060726ca96193e&lt;/sys_id&gt;&lt;sys_mod_count&gt;77&lt;/sys_mod_count&gt;&lt;sys_name&gt;Global Queue Incident&lt;/sys_name&gt;&lt;sys_package display_value="Global Queue" source="x_snc_gq"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global Queue"&gt;526aea5adb31b3003a060726ca96193e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_vtable_400b5a3adb7137003a060726ca96193e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-06-27 21:05:35&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_gq_st_incident&lt;/table&gt;&lt;/sys_script_vtable&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1028136809</payload_hash>
+        <record_name>Global Queue Incident</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-27 21:05:35</sys_created_on>
+        <sys_id>7198ffe1db1e3740a261f9e139961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b9ac2066e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-27 21:05:35</sys_updated_on>
+        <type>Remote Table</type>
+        <update_guid>f998ffe13c1e374000dd703b64aaa918</update_guid>
+        <update_guid_history>f998ffe13c1e374000dd703b64aaa918:-1028136809,d2583fe1321e37407ff9e21ba89c857b:-762617659,736e6ca936923740f57afba5bf92df8f:-1028136809,3f6d10ad9d067700219e89bcf046276e:-1356263751,8f8de72b5f75f70072cb48f975ce9803:1812144807,02eca7e7df75f70064cbdd76d2125b25:881700218,3dfaef676b75f7007bf97cd4a0036d4d:522571727,7a88e763fe75f700d5921a82457f9438:715993521,2c5a476728f1f7003beee187fd6cd4a8:1269243846,03c94f2708f1f70031abc6840b8d6dca:266997478,5226b6234db1f70075803f2324ed088f:2046493584,5c84f2ef0171f7005192d3eccbc56e03:-1153139006,8af3766f5e71f70094e9d49090651034:-1739176629,17b3f2eb9d71f7008b4e4d2e691e9ff7:-1804820616,7e9f626f1831f700073ea419c135f033:1337758275,fe81ae2fb331f70089513025659b3ad4:983652763,fe40a2eb0c31f700af7bdfaa947d6b11:1455407099,9fff12eb9531f700648493f4b7cc7107:1837192299,3caf52ab0731f7003a696f1ba4993d58:-845630121,836f1e6b9731f700555d970cd5d794f5:364253866,004fd66b5331f700986c833581b9be73:-1963963385,99ce926b5131f7006d43f0c30da140ba:-146680549,651e166bbf31f700b3c1fa178cc20454:-492966804,0dcdd66b4c31f70008ede4984b6e9a6b:1345902230,e97d9ee79e31f700451e2ee0ee0cbcc2:-1258581162,b69916e35631f70030a28f0e2931375a:1621162102,e3f8da27b231f7000b0d01b37754c925:-364052614,b9089aa3b331f700dfe3f5e1d7d633e0:-1806401261,d7e796e37d31f70027ed5ea5a00d34d1:-391415914,f1979aa37f31f700f29a67cc08237846:-862233586,0d87162f0cfdb70016ef3c600d6875f2:340672239,b8f6162f0afdb700bc7c811982afe6cd:2136306905,bc84deeb64fdb700a7da2b1fe8e26606:1723226805,932fca2b1bfdb70097d22e1b3dd4fac1:1767303033,12ddcea34ffdb700d970c3099489241f:936006333,4108989fe9f57700b3194db48c07ace9:-1350016988,13ecc49f7ff57700282e4daeff01501e:2067540413,51bcc49fcaf57700fe6b1f66d916615b:-1299987473,d19b84d79ef57700e119d5f23fbb3802:-248002161,633bc45f54f5770072b19e0fc4c5604c:713648089,de150c972ef577000a8a27334826a2f5:-1683100092,e8940c57e9f5770078a7edbe1fc88dde:192010648,0023c05745f577000e7c222eaf6020a2:-1115686760,8f7767c7e8757700177097ddc8b0706d:-236818062,9cd167471a757700e71318e87b198710:21112481,2aa16307f675770071270cfd08cbb84d:44841005,9b0f5743c675770081b4ec88735e1317:-402815043,ac475b8b2c3577008355ee6ca06a2d7a:1707714861,a5c6530b23357700a871fcba42e259e8:1039824923,128657c7e435770050dc26af1f9c1bbd:126141811,bee41b8730357700a6114af9a73ad2f8:1877839190,df141b87733577002a0db232597920f0:900616311,3c931707ee35770095b84033c01ecd09:-1619984332,2ab29347677d3700c182ff273fea1145:-1153891541,6f55a3b2a3b5370041a73b6a974e0e38:-872044978,251dbafa4ef13700cb0b7c9d15fbae21:-107919541,2fec7a36e6f137007dbe68773a879dd5:-481139613,a6cbf2f66ff13700ba4306ea5aec0def:514709264,9bf4f2fe19b13700fd3177227e19e781:-1342210515,bf7476f210f137009a9e4842caf06a0b:-591284741,e444f2fe0bb137001cab0e594b66eb7a:425181948,8a40b2fefeb1370045c11bfe07db3a28:-674435679,56efaeba34b13700ab40bc0c8d2b24cc:84419553,0cdfeabefeb13700b101bac1af5da37f:-1502178275,9e08eeb635b13700495a95266336f378:84419553,9da7ea7640b137009a273c7a111c24f5:-627028398,173766b6d7b1370017c24f57d9c27615:-1706524654,b3a62e764ab137000a34ef918a41e546:84419553,6235a636d8b13700281b140e1c86869b:1628171876,a9256eb205b13700e7b3795143a34808:-1081992860,f0b3aab286b137007ad41212cd7eafbc:1628171876,735222fe6c713700305b514b1ee29e19:1682010445,257d523e61713700034b78dea65b231d:1541550636,28fc1efa77713700e05ed8c695dffb30:199857897,694c5aba397137001b20905a2cdf7b03:911970109,afabde7af9713700a7512381c81f87ef:733754676,d51b5a3abb71370049c80322c9078d65:856032729,080b5a3a5b713700af122bfac9c1973f:-22056423</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:47:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_vtable">sys_script_vtable</sys_db_object>
+        <sys_id>196d74c5288e407e87d7f171512033c4</sys_id>
+        <sys_metadata>400b5a3adb7137003a060726ca96193e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_script_vtable_400b5a3adb7137003a060726ca96193e</sys_update_name>
+        <sys_update_version display_value="sys_script_vtable_400b5a3adb7137003a060726ca96193e">7198ffe1db1e3740a261f9e139961919</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:47:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

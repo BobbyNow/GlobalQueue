@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
     <sp_ng_template action="INSERT_OR_UPDATE">
         <id>item-added-tooltipCustom.html</id>
-        <sp_widget display_value="GlobalQ Header Menu">5596054cdb8a3b003a060726ca961960</sp_widget>
+        <sp_widget/>
         <sys_class_name>sp_ng_template</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-10 06:41:07</sys_created_on>

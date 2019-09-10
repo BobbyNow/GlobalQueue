@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_report action="DELETE">
+<additional_groupby/>
+<aggregate>COUNT</aggregate>
+<allow_data_label_overlap>false</allow_data_label_overlap>
+<axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+<axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
+<bar_unstack>false</bar_unstack>
+<chart_background_color display_value=""/>
+<chart_border_color display_value=""/>
+<chart_border_radius>0</chart_border_radius>
+<chart_border_width>1</chart_border_width>
+<chart_height>450</chart_height>
+<chart_size>large</chart_size>
+<chart_subtitle/>
+<chart_subtitle_color display_value=""/>
+<chart_subtitle_size>14</chart_subtitle_size>
+<chart_subtitle_style>normal</chart_subtitle_style>
+<chart_title/>
+<chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
+<chart_title_size>16</chart_title_size>
+<chart_title_style>normal</chart_title_style>
+<chart_title_x_position>0</chart_title_x_position>
+<chart_title_y_position>0</chart_title_y_position>
+<chart_width>600</chart_width>
+<color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
+<color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
+<colors/>
+<column>state</column>
+<compute_percent>aggregate</compute_percent>
+<content/>
+<created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+<custom_chart_size>false</custom_chart_size>
+<custom_chart_title_position>false</custom_chart_title_position>
+<custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+<decimal_precision>2</decimal_precision>
+<description/>
+<direction>minimize</direction>
+<display_column_lines>false</display_column_lines>
+<display_grid>false</display_grid>
+<display_row_lines>false</display_row_lines>
+<donut_width_percent>50</donut_width_percent>
+<end_time/>
+<exp_report_attrs>false</exp_report_attrs>
+<field>priority</field>
+<field_list/>
+<filter table="x_snc_gq_st_incident"/>
+<from/>
+<funnel_neck_percent>30</funnel_neck_percent>
+<gauge_autoscale>false</gauge_autoscale>
+<group display_value=""/>
+<import_table display_value=""/>
+<interval>week</interval>
+<is_published>false</is_published>
+<is_real_time>false</is_real_time>
+<is_scheduled>false</is_scheduled>
+<legend_align_columns>true</legend_align_columns>
+<legend_background_color display_value=""/>
+<legend_border_color display_value=""/>
+<legend_border_radius>0</legend_border_radius>
+<legend_border_width>1</legend_border_width>
+<legend_horizontal_alignment>center</legend_horizontal_alignment>
+<legend_items_left_align>false</legend_items_left_align>
+<legend_vertical_alignment>bottom</legend_vertical_alignment>
+<list_ui_view display_value=""/>
+<location_field/>
+<lower_limit/>
+<map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
+<map_source display_value=""/>
+<orderby_list/>
+<other_threshold>-2</other_threshold>
+<others>false</others>
+<page_hdrftr display_value=""/>
+<pivot_expanded>true</pivot_expanded>
+<report_drilldown display_value=""/>
+<report_source display_value=""/>
+<roles>snc_internal,x_snc_gq.incident_user</roles>
+<row>priority</row>
+<sc_groupby_item_id/>
+<sc_groupby_variable_id/>
+<sc_stackby_item_id/>
+<sc_stackby_variable_id/>
+<score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+<series_name_text/>
+<set_color>color_palette</set_color>
+<show_chart_border>false</show_chart_border>
+<show_chart_data_label>false</show_chart_data_label>
+<show_chart_title>report</show_chart_title>
+<show_chart_total>false</show_chart_total>
+<show_data_label_position_middle>false</show_data_label_position_middle>
+<show_empty>false</show_empty>
+<show_geographical_label>false</show_geographical_label>
+<show_legend>true</show_legend>
+<show_legend_border>false</show_legend_border>
+<show_marker>false</show_marker>
+<show_zero>false</show_zero>
+<source_type>table</source_type>
+<start_time/>
+<style_config/>
+<sumfield/>
+<sys_class_name>sys_report</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-14 22:14:19</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>c6ab896ddbc67700a261f9e139961921</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>GQ Open Incidents by Priority and State</sys_name>
+<sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+<sys_update_name>sys_report_c6ab896ddbc67700a261f9e139961921</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-14 22:42:35</sys_updated_on>
+<table>x_snc_gq_st_incident</table>
+<title>GQ Open Incidents by Priority and State</title>
+<title_horizontal_alignment>center</title_horizontal_alignment>
+<title_vertical_alignment>top</title_vertical_alignment>
+<to/>
+<trend_field>state</trend_field>
+<type>bar</type>
+<upper_limit/>
+<use_color_heatmap>false</use_color_heatmap>
+<use_null_in_trend>false</use_null_in_trend>
+<user>GLOBAL</user>
+<x_axis_allow_decimals>true</x_axis_allow_decimals>
+<x_axis_display_grid>false</x_axis_display_grid>
+<x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
+<x_axis_grid_dotted>false</x_axis_grid_dotted>
+<x_axis_grid_width>1</x_axis_grid_width>
+<x_axis_label_bold>false</x_axis_label_bold>
+<x_axis_label_color display_value=""/>
+<x_axis_label_size>11</x_axis_label_size>
+<x_axis_label_tilt>0</x_axis_label_tilt>
+<x_axis_opposite>false</x_axis_opposite>
+<x_axis_title/>
+<x_axis_title_bold>true</x_axis_title_bold>
+<x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
+<x_axis_title_size>12</x_axis_title_size>
+<y_axis_allow_decimals>true</y_axis_allow_decimals>
+<y_axis_display_grid>true</y_axis_display_grid>
+<y_axis_from/>
+<y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
+<y_axis_grid_dotted>false</y_axis_grid_dotted>
+<y_axis_grid_width>1</y_axis_grid_width>
+<y_axis_label_bold>false</y_axis_label_bold>
+<y_axis_label_color display_value=""/>
+<y_axis_label_size>11</y_axis_label_size>
+<y_axis_label_tilt>0</y_axis_label_tilt>
+<y_axis_opposite>false</y_axis_opposite>
+<y_axis_title/>
+<y_axis_title_bold>true</y_axis_title_bold>
+<y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
+<y_axis_title_size>12</y_axis_title_size>
+<y_axis_to/>
+</sys_report>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_report_c6ab896ddbc67700a261f9e139961921</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_report action="INSERT_OR_UPDATE">
+<additional_groupby/>
+<aggregate>COUNT</aggregate>
+<allow_data_label_overlap>false</allow_data_label_overlap>
+<axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+<axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
+<bar_unstack>false</bar_unstack>
+<chart_background_color display_value=""/>
+<chart_border_color display_value=""/>
+<chart_border_radius>0</chart_border_radius>
+<chart_border_width>1</chart_border_width>
+<chart_height>450</chart_height>
+<chart_size>large</chart_size>
+<chart_subtitle/>
+<chart_subtitle_color display_value=""/>
+<chart_subtitle_size>14</chart_subtitle_size>
+<chart_subtitle_style>normal</chart_subtitle_style>
+<chart_title/>
+<chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
+<chart_title_size>16</chart_title_size>
+<chart_title_style>normal</chart_title_style>
+<chart_title_x_position>0</chart_title_x_position>
+<chart_title_y_position>0</chart_title_y_position>
+<chart_width>600</chart_width>
+<color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
+<color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
+<colors/>
+<column>state</column>
+<compute_percent>aggregate</compute_percent>
+<content/>
+<created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+<custom_chart_size>false</custom_chart_size>
+<custom_chart_title_position>false</custom_chart_title_position>
+<custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+<decimal_precision>2</decimal_precision>
+<description/>
+<direction>minimize</direction>
+<display_column_lines>false</display_column_lines>
+<display_grid>false</display_grid>
+<display_row_lines>false</display_row_lines>
+<donut_width_percent>50</donut_width_percent>
+<end_time/>
+<exp_report_attrs>false</exp_report_attrs>
+<field>priority</field>
+<field_list/>
+<filter table="x_snc_gq_st_incident"/>
+<from/>
+<funnel_neck_percent>30</funnel_neck_percent>
+<gauge_autoscale>false</gauge_autoscale>
+<group display_value=""/>
+<import_table display_value=""/>
+<interval>week</interval>
+<is_published>false</is_published>
+<is_real_time>false</is_real_time>
+<is_scheduled>false</is_scheduled>
+<legend_align_columns>true</legend_align_columns>
+<legend_background_color display_value=""/>
+<legend_border_color display_value=""/>
+<legend_border_radius>0</legend_border_radius>
+<legend_border_width>1</legend_border_width>
+<legend_horizontal_alignment>center</legend_horizontal_alignment>
+<legend_items_left_align>false</legend_items_left_align>
+<legend_vertical_alignment>bottom</legend_vertical_alignment>
+<list_ui_view display_value=""/>
+<location_field/>
+<lower_limit/>
+<map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
+<map_source display_value=""/>
+<orderby_list/>
+<other_threshold>-2</other_threshold>
+<others>false</others>
+<page_hdrftr display_value=""/>
+<pivot_expanded>true</pivot_expanded>
+<report_drilldown display_value=""/>
+<report_source display_value=""/>
+<roles>snc_internal,x_snc_gq.incident_user</roles>
+<row>priority</row>
+<sc_groupby_item_id/>
+<sc_groupby_variable_id/>
+<sc_stackby_item_id/>
+<sc_stackby_variable_id/>
+<score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+<series_name_text/>
+<set_color>color_palette</set_color>
+<show_chart_border>false</show_chart_border>
+<show_chart_data_label>false</show_chart_data_label>
+<show_chart_title>report</show_chart_title>
+<show_chart_total>false</show_chart_total>
+<show_data_label_position_middle>false</show_data_label_position_middle>
+<show_empty>false</show_empty>
+<show_geographical_label>false</show_geographical_label>
+<show_legend>true</show_legend>
+<show_legend_border>false</show_legend_border>
+<show_marker>false</show_marker>
+<show_zero>false</show_zero>
+<source_type>table</source_type>
+<start_time/>
+<style_config/>
+<sumfield/>
+<sys_class_name>sys_report</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-06-14 22:14:19</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>c6ab896ddbc67700a261f9e139961921</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_name>GQ Open Incidents by Priority and State</sys_name>
+<sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+<sys_update_name>sys_report_c6ab896ddbc67700a261f9e139961921</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-06-14 22:42:35</sys_updated_on>
+<table>x_snc_gq_st_incident</table>
+<title>GQ Open Incidents by Priority and State</title>
+<title_horizontal_alignment>center</title_horizontal_alignment>
+<title_vertical_alignment>top</title_vertical_alignment>
+<to/>
+<trend_field>state</trend_field>
+<type>bar</type>
+<upper_limit/>
+<use_color_heatmap>false</use_color_heatmap>
+<use_null_in_trend>false</use_null_in_trend>
+<user>GLOBAL</user>
+<x_axis_allow_decimals>true</x_axis_allow_decimals>
+<x_axis_display_grid>false</x_axis_display_grid>
+<x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
+<x_axis_grid_dotted>false</x_axis_grid_dotted>
+<x_axis_grid_width>1</x_axis_grid_width>
+<x_axis_label_bold>false</x_axis_label_bold>
+<x_axis_label_color display_value=""/>
+<x_axis_label_size>11</x_axis_label_size>
+<x_axis_label_tilt>0</x_axis_label_tilt>
+<x_axis_opposite>false</x_axis_opposite>
+<x_axis_title/>
+<x_axis_title_bold>true</x_axis_title_bold>
+<x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
+<x_axis_title_size>12</x_axis_title_size>
+<y_axis_allow_decimals>true</y_axis_allow_decimals>
+<y_axis_display_grid>true</y_axis_display_grid>
+<y_axis_from/>
+<y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
+<y_axis_grid_dotted>false</y_axis_grid_dotted>
+<y_axis_grid_width>1</y_axis_grid_width>
+<y_axis_label_bold>false</y_axis_label_bold>
+<y_axis_label_color display_value=""/>
+<y_axis_label_size>11</y_axis_label_size>
+<y_axis_label_tilt>0</y_axis_label_tilt>
+<y_axis_opposite>false</y_axis_opposite>
+<y_axis_title/>
+<y_axis_title_bold>true</y_axis_title_bold>
+<y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
+<y_axis_title_size>12</y_axis_title_size>
+<y_axis_to/>
+</sys_report></record_update>]]></payload>
+        <payload_hash>-1320257251</payload_hash>
+        <record_name>GQ Open Incidents by Priority and State</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 19:37:24</sys_created_on>
+        <sys_id>fbbd9582db3a7300a261f9e1399619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c2056a32b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 19:37:24</sys_updated_on>
+        <type>Report</type>
+        <update_guid>37bd9582e03a7300a9796c2d933bf8fa</update_guid>
+        <update_guid_history>37bd9582e03a7300a9796c2d933bf8fa:-1320257251,da2960ca413673009289fd9aa2b6949f:-2042894406,402259a5820a770009e4ce6a93654567:-1951428282,faa1dd25300a770073aa94b6831de36d:-245230138,429151a5aa0a7700a4463411766dc414:-1269522397,4d30d525a90a7700ac16aaa08fd0732a:-1404942698,a04cc1ad96c677005153b28a1086c1ba:721713447,211c49ad6dc677000e2d255176da23eb:-1612762729,42abc1ad5ac6770043daeb7bd602ffa6:-1873556272</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="GQ Open Incidents by Priority and State">1510ddf9db733300a261f9e13996195b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-10 17:02:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_report">sys_report</sys_db_object>
+        <sys_id>3f6776ef1188448c85109157100cdee4</sys_id>
+        <sys_metadata>c6ab896ddbc67700a261f9e139961921</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GQ Open Incidents by Priority and State</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent display_value="">e839e0cadb367300a261f9e1399619c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_report_c6ab896ddbc67700a261f9e139961921</sys_update_name>
+        <sys_update_version display_value="sys_report_c6ab896ddbc67700a261f9e139961921">fbbd9582db3a7300a261f9e1399619fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-10 17:02:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

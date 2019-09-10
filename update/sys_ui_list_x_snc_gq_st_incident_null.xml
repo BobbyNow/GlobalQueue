@@ -3,182 +3,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>a2663786db63ff80a261f9e1399619af</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>2382ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>company</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>caller_id</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>a6663786db63ff80a261f9e1399619af</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>a382ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>caller_id</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>company</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>aa663786db63ff80a261f9e1399619af</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>2782ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cmdb_ci</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>short_description</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>ae663786db63ff80a261f9e1399619af</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>a782ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>priority</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>a2663786db63ff80a261f9e1399619b0</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>2b82ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>state</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>a6663786db63ff80a261f9e1399619b0</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>ab82ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>assigned_to</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>aa663786db63ff80a261f9e1399619b0</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>2f82ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sla_due</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>assignment_group</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>ae663786db63ff80a261f9e1399619b0</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>af82ddbddb733300a261f9e139961923</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>instance</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>a2663786db63ff80a261f9e1399619b1</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>2382ddbddb733300a261f9e139961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assignment_group</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
+            <element>endpoint</element>
+            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">2b82ddbddb733300a261f9e139961922</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>a6663786db63ff80a261f9e1399619b1</sys_id>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
+            <sys_id>a382ddbddb733300a261f9e139961924</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>instance</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>10</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>aa663786db63ff80a261f9e1399619b1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>endpoint</element>
-            <list_id display_value="x_snc_gq_st_incident" element="NULL" name="x_snc_gq_st_incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6a663786db63ff80a261f9e1399619ae</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>11</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
-            <sys_id>ae663786db63ff80a261f9e1399619b1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -192,10 +162,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-08-30 13:31:30</sys_created_on>
+            <sys_created_on>2019-09-10 17:12:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6a663786db63ff80a261f9e1399619ae</sys_id>
+            <sys_id>2b82ddbddb733300a261f9e139961922</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_gq_st_incident</sys_name>
             <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
@@ -203,7 +173,7 @@
             <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_gq_st_incident_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-08-30 13:31:30</sys_updated_on>
+            <sys_updated_on>2019-09-10 17:12:49</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

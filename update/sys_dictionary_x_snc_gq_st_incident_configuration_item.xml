@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="cmdb_ci" table="x_snc_gq_st_incident">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="configuration_item" table="x_snc_gq_st_incident">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -27,7 +27,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>cmdb_ci</element>
+        <element>configuration_item</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-07-23 16:18:27</sys_created_on>
-        <sys_id>d420f082db767300a261f9e1399619b3</sys_id>
+        <sys_created_on>2019-09-10 17:07:53</sys_created_on>
+        <sys_id>14b0993ddb733300a261f9e139961971</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Configuration item</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_gq_st_incident_cmdb_ci</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_gq_st_incident_configuration_item</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-23 16:18:27</sys_updated_on>
+        <sys_updated_on>2019-09-10 17:07:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

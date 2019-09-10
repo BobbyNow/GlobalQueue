@@ -52,7 +52,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>c6ab896ddbc67700a261f9e139961921</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
-        <sys_parent display_value="GQ Open Incidents by Priority and State">c6ab896ddbc67700a261f9e139961921</sys_parent>
+        <sys_parent display_value="">c6ab896ddbc67700a261f9e139961921</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
         <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>

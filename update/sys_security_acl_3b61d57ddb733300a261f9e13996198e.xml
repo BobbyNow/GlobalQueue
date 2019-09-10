@@ -6,20 +6,20 @@
         <condition/>
         <description>Default access control on x_snc_gq_st_incident</description>
         <name>x_snc_gq_st_incident</name>
-        <operation display_value="create">create</operation>
+        <operation display_value="write">write</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-07-23 15:53:45</sys_created_on>
-        <sys_id>778a280edb367300a261f9e139961989</sys_id>
+        <sys_created_on>2019-09-10 17:07:55</sys_created_on>
+        <sys_id>3b61d57ddb733300a261f9e13996198e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_gq_st_incident</sys_name>
         <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
-        <sys_update_name>sys_security_acl_778a280edb367300a261f9e139961989</sys_update_name>
+        <sys_update_name>sys_security_acl_3b61d57ddb733300a261f9e13996198e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-23 15:53:45</sys_updated_on>
+        <sys_updated_on>2019-09-10 17:07:55</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

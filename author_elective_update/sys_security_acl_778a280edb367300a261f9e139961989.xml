@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_gq_st_incident</description>
+        <name>x_snc_gq_st_incident</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:53:45</sys_created_on>
+        <sys_id>778a280edb367300a261f9e139961989</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq_st_incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_update_name>sys_security_acl_778a280edb367300a261f9e139961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:53:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_security_acl_778a280edb367300a261f9e139961989</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_snc_gq_st_incident</description><name>x_snc_gq_st_incident</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-23 15:53:45</sys_created_on><sys_id>778a280edb367300a261f9e139961989</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_gq_st_incident</sys_name><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sys_security_acl_778a280edb367300a261f9e139961989</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-07-23 15:53:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>239652236</payload_hash>
+        <record_name>x_snc_gq_st_incident</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:53:45</sys_created_on>
+        <sys_id>378a280edb367300a261f9e13996198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16c1f89e2230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:53:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>7f8a280e91367300456071260baff48d</update_guid>
+        <update_guid_history>7f8a280e91367300456071260baff48d:239652236</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-10 17:01:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>000a4f7dd0774ca28000971b40ec4199</sys_id>
+        <sys_metadata>778a280edb367300a261f9e139961989</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq_st_incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent display_value="">bf8a280edb367300a261f9e1399619b6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_778a280edb367300a261f9e139961989</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_778a280edb367300a261f9e139961989">378a280edb367300a261f9e13996198e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-10 17:01:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

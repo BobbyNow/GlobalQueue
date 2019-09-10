@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="e0857636dbf137003a060726ca961954" sys_domain="global" table="x_snc_gq_st_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:46</sys_created_on>
+            <sys_id>caf61006dbde7740a261f9e139961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>caller_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>46f61006dbde7740a261f9e13996191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>c6f61006dbde7740a261f9e13996191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>4af61006dbde7740a261f9e13996191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>caf61006dbde7740a261f9e13996191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>4ef61006dbde7740a261f9e13996191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>cef61006dbde7740a261f9e13996191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>42f61006dbde7740a261f9e13996191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>c2f61006dbde7740a261f9e13996191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+            <sys_id>46f61006dbde7740a261f9e13996191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_gq_st_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-06 16:53:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0857636dbf137003a060726ca961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_gq_st_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+            <sys_update_name>sys_ui_section_e0857636dbf137003a060726ca961954</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-06 16:53:29</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue">526aea5adb31b3003a060726ca96193e</application>
+        <file_path/>
+        <instance_id>5592cf13dbb8bb40b847ac44d4961971</instance_id>
+        <instance_name>serviceconnect</instance_name>
+        <name>sys_ui_section_e0857636dbf137003a060726ca961954</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="e0857636dbf137003a060726ca961954" sys_domain="global" table="x_snc_gq_st_incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:46</sys_created_on><sys_id>caf61006dbde7740a261f9e139961919</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:46</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>caller_id</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>46f61006dbde7740a261f9e13996191a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>company</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>c6f61006dbde7740a261f9e13996191a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>4af61006dbde7740a261f9e13996191a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>caf61006dbde7740a261f9e13996191a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>4ef61006dbde7740a261f9e13996191a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>cef61006dbde7740a261f9e13996191a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>42f61006dbde7740a261f9e13996191b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>c2f61006dbde7740a261f9e13996191b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 17:56:47</sys_created_on><sys_id>46f61006dbde7740a261f9e13996191b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_gq_st_incident" sys_domain="global" view="Default view">e0857636dbf137003a060726ca961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-28 17:56:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_gq_st_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-06 16:53:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e0857636dbf137003a060726ca961954</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_gq_st_incident</sys_name><sys_overrides/><sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package><sys_policy/><sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope><sys_update_name>sys_ui_section_e0857636dbf137003a060726ca961954</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-06-06 16:53:29</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1371315734</payload_hash>
+        <record_name>Global Queue Incident</record_name>
+        <reverted_from/>
+        <source>1a6aea5adb31b3003a060726ca961940</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-28 17:56:47</sys_created_on>
+        <sys_id>82f61446dbde7740a261f9e13996192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16b9f3b87830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-28 17:56:47</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0ef6144665de77407b7539305e2aa02d</update_guid>
+        <update_guid_history>0ef6144665de77407b7539305e2aa02d:1371315734,b1f57e36eaf137005618ef66602ecf00:-260578636,47c5ba36b2f13700db1dceaefc411a3e:1075528168,ebb57a36bdf1370049f3387ad4682d05:-260578636,a885763619f13700b692d8b95567875c:-187301981,2885763694f1370017bdf2ef1b83c757:-763107775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 15:47:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>014e99849b16497482d3d91f1a137490</sys_id>
+        <sys_metadata>e0857636dbf137003a060726ca961954</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq_st_incident</sys_name>
+        <sys_package display_value="Global Queue" source="x_snc_gq">526aea5adb31b3003a060726ca96193e</sys_package>
+        <sys_parent display_value="">650a923adb7137003a060726ca961924</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue">526aea5adb31b3003a060726ca96193e</sys_scope>
+        <sys_scope_delete display_value="">1a92ddbacd2a43a2804de91bc07047a4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_e0857636dbf137003a060726ca961954</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_e0857636dbf137003a060726ca961954">82f61446dbde7740a261f9e13996192e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 15:47:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
